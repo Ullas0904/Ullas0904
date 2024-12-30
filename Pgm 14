@@ -1,0 +1,14 @@
+<?php
+$cookie name "UserID";
+$cookie value="A1B234C";
+$expiration_time = time() + (24 * 3600);
+setcookie($cookie_name, $cookie_value, Sexpiration_time, "/");
+echo "Cookie "$cookie name' is set.<br><br><br>";
+if(isset($_COOKIE[$cookie_name]))uca
+{ NCE name' is : ".$_COOKIE[$cookie_name]; echo "Value of cookie 'Scookie name' is:
+}
+else
+{
+echo "Cookie named'$cookie_name'is not set";
+}
+?;
